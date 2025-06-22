@@ -19,8 +19,7 @@ def enroll(*courses):
 enroll("Probabilistic Inference", "Introduction to Machine Learning",
     "Computer Vision", "Graphics")
 
-
-
+"""
 def customise_page(**kwargs):
     parse_args(kwargs)
 
@@ -37,3 +36,6 @@ def parse_args(options):
             return
 
 customise_page(background="red", width=500, avatar="selfie.jpg")
+
+"""
+
